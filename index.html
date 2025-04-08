@@ -1,142 +1,55 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <title>IFSP Pirituba - Página Inicial</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      background-color: #f2f2f2;
-      color: #333;
-    }
-
-    nav {
-      background-color: #006633;
-      padding: 10px 20px;
-      display: flex;
-      justify-content: flex-end;
-      gap: 15px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    header, section, footer {
-      margin-bottom: 40px;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    .logo {
-      width: 250px;
-    }
-
-    .move-top {
-      width: 50px;
-      vertical-align: middle;
-      margin-right: 10px;
-    }
-
-    .facebook-icon {
-      width: 50px;
-      vertical-align: middle;
-    }
-
-    .biblioteca {
-      width: 80px;
-    }
-
-    .publicado {
-      font-size: 0.9em;
-      color: #666;
-      margin-top: -20px;
-      margin-bottom: 30px;
-    }
-
-    .rodape-icons {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      font-size: 1.5em;
-    }
-
-    h2.evento-title {
-      font-size: 1.2em;
-    }
-
-    .youtube-video {
-      width: 100%;
-      max-width: 560px;
-      height: 315px;
-      border: none;
-    }
-  </style>
-</head>
-<body>
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="contato.html">Contato</a>
-    <a href="sobre.html">Sobre</a>
-  </nav>
-
-  <header>
-    <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/Logo.jpg" alt="Logo IFSP" class="logo">
-    <h1>IFSP - Câmpus Pirituba</h1>
-  </header>
-
-  <section>
-    <h2 class="evento-title">Eventos</h2>
-    <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/SEJA_RARO.jpg" alt="Palestra Seja Raro - Augusto Aielo">
-    <p><strong>Aniversário do IFSP - Pirituba - Palestra Augusto Aielo</strong></p>
-  </section>
-
-  <section>
-    <h2>Sobre a Biblioteca</h2>
-    <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/library.jpeg" alt="Ícone Biblioteca" class="biblioteca">
-    <p>Conheça os novos títulos disponíveis na nossa biblioteca</p>
-  </section>
-
-  <p class="publicado">Publicado: Quarta-feira, 14 de agosto de 2019</p>
-
-  <section>
-    <h2>Conheça o SUAP</h2>
-    <iframe class="youtube-video" src="https://www.youtube.com/embed/yVbOcB1ryh0" title="Tutorial de Acesso - SUAP" allowfullscreen></iframe>
-  </section>
-
-  <section>
-    <h2>Cursos</h2>
-    <ul>
-      <li><a href="ads.html">Análise e Desenvolvimento de Sistemas</a></li>
-      <li><a href="engproducao.html">Engenharia de Produção</a></li>
-      <li><a href="gestaoti.html">Gestão em Tecnologia da Informação</a></li>
-      <li><a href="letras.html">Letras</a></li>
-      <li><a href="gestaopublica.html">Gestão Pública</a></li>
-    </ul>
-  </section>
-
-  <footer>
-    <div class="rodape-icons">
-      <a href="#"><img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/MoveTop.png" alt="Voltar ao topo" class="move-top"></a>
-      <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/facebook.png" alt="Facebook IFSP" class="facebook-icon">
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+     <div style="text-align: right;">
+        <a href="index.html">Home</a> 
+	|
+        <a href="contato.html">Contato</a>
+	|
+        <a href="sobre.html">Sobre</a>
     </div>
-    <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
-  </footer>
+    <img src='Logo.jpg' alt='Logo'>
+    <p><b>Cursos</b></p>
+    <ul>
+     <a href="ADS.html"> <li> Análise e Desenvolvimento de Sistemas </li></a>
+      <li> <a href="Engenharia.html">Engenharia de Produção </a></li>
+      <li> <a href="Gestao-TI.html">Gestão em Tecnologia da Informação</a> </li>
+      <li> <a href="Letras.html">letras </a></li>
+      <li> <a href="Gestao-Publica.html">Gestão Pública </a></li>
+    </ul>
+    <p id= 'começo'><b> Eventos</b></p>
+    <figure>
+      <img src="SEJA_RARO.jpg" alt="Palestra seja raro 14/08/2019 ás 19" width="50%">
+      <figcaption>Aniversário do IFSP - Pirituba - Palestra Augusto Aielo </figcaption>
+    </figure>
+    <h2>Sobre a Biblioteca</h2>
+      <img src='library.jpeg' alt='Logo da livaria do IFSP'>
+    <h2>Conheça os novos títulos disponíveis na nossa biblioteca</h2>
+      <p>Publicado: Quarta-feira, 14 de agosto de 2019</p>
+      <h2>Conheça o SUAP</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yVbOcB1ryh0?si=3LjBmrovC_92CpSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <table>
+    <tr>
+      <td>
+        <a href='#começo'>
+        <img src="MoveTop.png" alt="Aperte para voltar a cima" width="50%">
+        </a>
+      </td>
+      <td>
+        <a href='https://www.facebook.com/IFSaoPaulo/?locale=pt_BR'>
+        <img src="face.png" alt="Aperte para acessa o facebook do IFSP" width="50%">
+        </a>
+      </td>
+    </tr>
+  </table>
+    <footer>
+      <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
+    </footer>
 
-</body>
+
+  </body>
 </html>
